@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: royalblue;
+        }
+
+        h1:hover {
+            background-color: crimson;
+            color: darkgray;
+        }
+
+        a:visited {
+            color: seagreen;
+        }
+
+        li:first-child {
+            color: skyblue;
+        }
+
+        li::before {
+            content: 'Hello ';
+        }
+
+        .special::after {
+            content: 'Gello';
+            background-color: springgreen;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nibba Factory</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <a href="www.google.com">Go to google</a>
+    <a href="https://www.wix.com/">go to wix</a>
+    <ul>
+        <li class="special">Aniku</li>
+        <li>Paniku</li>
+        <li>Chaniku</li>
+        <li>Daliku</li>
+        <li class="special">Maliku</li>
+        <li>Baliku</li>
+    </ul>
+</body>
+
+</html>
